@@ -4,6 +4,9 @@
 
 Reference: [Intel guide](Following: https://www.intel.com/content/www/us/en/programmable/documentation/fvf1521490619217.html#gji1513206065498)
 ```
+# Set up your environment. This must be done first every time you log in to set up your terminal env variables.
+source /scratch/inteldevstack_v1.2/init_env_no-sudo.sh
+
 #instead of manually adding the path as in the commented lines below, source this file:  
 source $INTELFPGAOCLSDKROOT/init_opencl.sh #sets 
 
